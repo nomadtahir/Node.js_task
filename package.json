@@ -1,0 +1,29 @@
+{
+  "name": "auth-svc",
+  "version": "1.0.0",
+  "description": "We'd like you to build a simple Movie API. It should provide two endpoints:",
+  "scripts": {
+    "start": "nodemon server.js",
+    "startserver": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "dotenv": "^14.3.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "http": "^0.0.1-security",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7"
+  },
+  "main": "./src/server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
